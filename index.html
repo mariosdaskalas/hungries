@@ -9,30 +9,115 @@
     <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header class="container">
-        <nav>
-            <div class="row">
-                <div class="col-1">
-                    <i class="bi bi-menu-up" style="font-size: 2rem; color: black;"></i>
-                </div> 
-                <div class="col-11 mt-2 text-start">
-                    <h4>Hungrie's Place</h4>
-                </div>  
-        </nav>
+    <nav>
+        <div class="btn-group mt-3">
+        <button type="button" class="btn btn-warning dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        Menu
+        </button>
+        <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="./index.html">Catalog</a></li>
+        <li><a class="dropdown-item" href="./history.html">History</a></li>
+        <li><a class="dropdown-item" href="./contact.html">Contact</a></li>
+        </ul>
+        </div>
+    </nav>
+    <h4 class="text-center">Hungrie's Place</h4>
+    <div class="text-center">
+        <img style="width: 7.5rem;" class="rounded img-fluid" src="/images/logo.png">
+    </div>
     </header>
     <main>
-        <div class="row">
-            <div class="col">
-                <img src="/images/pizza.jpg">
+        <div class="row text-center mt-5">
+            <div class="col-6 d-flex justify-content-end">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/pizza.jpg" alt="Buy Hot Pizza">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order Pizza</b></div>
+                        <div class="card-text text-center">Pizza, dish of Italian origin consisting of a flattened disk of bread dough topped with some combination of olive oil, oregano, tomato, olives, mozzarella or other cheese.</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-start">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/hamburger.jpg" alt="Buy Juicy Hamburger">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order Hamburger</b></div>
+                        <div class="card-text text-center   ">Hamburger, also called burger, ground beef. The term is applied variously to (1) a patty of ground beef, sometimes called hamburg steak, Salisbury steak, or Vienna steak.</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col-6 d-flex justify-content-end">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/fries.jpg" alt="Buy French Fries">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order Fries</b></div>
+                        <div class="card-text text-center">These potato wedges are impossibly crispy and crackly on the outside, with tender, pillowy potato insides. They’re the perfect homemade solution any time the French fry craving strikes.</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-start">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/kfc.jpg" alt="Buy KFC Chicken Nuggets">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order KFC Nuggets</b></div>
+                        <div class="card-text text-center   ">KFC’s Beyond nuggets — available in a 6-count or 12-count box — look like any other chicken nugget. They’re a bit larger than the typical fast-food nug, and boast a crispy breaded exterior studded.</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center mt-5">
+            <div class="col-6 d-flex justify-content-end">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/chicken.jpg" alt="Buy Chicken">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order Chicken</b></div>
+                        <div class="card-text text-center">Ditch the takeaway menu and cook our healthy chicken madras curry instead. This simple family dinner is full of fragrant spices and tender pieces of chicken.</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 d-flex justify-content-start">
+                <div class="card" style="width: 40rem;">
+                    <img class="rounded img-fluid" src="/images/toast.jpg" alt="Buy French Toast">
+                    <div class="card-body">
+                        <div class="card-title text-center"><b>Order French Toast</b></div>
+                        <div class="card-text text-center   ">French toast is a dish made of sliced bread soaked in beaten eggs and typically milk, then pan fried. Alternative names and variants include "eggy bread".</div>
+                        <a href="#" class="btn btn-warning">Order</a>
+                        <input class="mt-2" type="number" placeholder="Enter order quantity" style="width:10rem; height:2.5rem">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="card text-black bg-warning mt-2">
+            <div class="card-header text-center">Opening Hours</div>
+            <div class="card-body text-center">
+                <div class="card-title">
+                    <div class="card-text">Monday - Friday 10:00 - 00:00
+                        <br>Saturday - Sunday 12:00 - 02:00
+                    </div>
+                </div>
             </div>
         </div>
     </main>
-    <footer>
-
+    <footer class="text-center p-2">
+        <small>© Copyright 2022 - Hungrie's Place</small>
     </footer>
     <script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
 </body>
