@@ -1,7 +1,11 @@
+
 body {
     font-family: 'EB Garamond', serif;
     background-image: url("/images/bg-triangle.jpg");
 }
 h4 {
     text-decoration: underline;
+}
+img:hover {
+    transform: scale(1.05);
 }
