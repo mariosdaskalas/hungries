@@ -24,7 +24,7 @@
 
 ## Screenshots
 
-![Hungries / Catalog](https://mariosdaskalas.gr/hungries/scrot/scrot1.png)
+![Hungries / Catalog](https://mariosdaskalas.gr/hungries/scrot/)
 ![Hungries / Find Us](https://mariosdaskalas.gr/hungries/scrot/scrot2.png)
 ![Hungries / Contact](https://mariosdaskalas.gr/hungries/scrot/scrot3.png)
 
